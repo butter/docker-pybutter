@@ -8,11 +8,13 @@ RUN pip install --no-cache-dir \
     bcrypt==3.1.2 \
     Celery==4.0.2 \
     colorlog==2.10.0 \
+    editdistance==0.3.1 \
     Flask-API==0.6.9 \
     Flask==0.12 \
     future==0.16.0 \
     ipdb==0.10.0 \
     ipython==5.1.0 \
+    nltl==3.2.2 \
     psycopg2==2.6.2 \
     pymongo==3.4.0 \
     python-dateutil==2.6.0 \
