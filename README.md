@@ -6,7 +6,7 @@ Butter.ai Common Python Packages
 -	[`2017-01`, `py2` (*2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/5f733bacdea7a89783aea7d64da06135d85f85b1/py2/2017-01/python/Dockerfile)
 -	[`nlpkit-2017-01`, `nlpkit` (*nlpkit-2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/bacd44bfc020768e7d3efef7b712c8b264610166/py2/2017-01/nlpkit/Dockerfile)
 -	[`py3-2017-01`, `py3`, `latest` (*py3-2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/5f733bacdea7a89783aea7d64da06135d85f85b1/py3/2017-01/python/Dockerfile)
--	[`py3-nlpkit-2017-01`, `py3-nlpkit`, (*py3-nlpkit-2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/bacd44bfc020768e7d3efef7b712c8b264610166/py3/2017-01/nlpkit/Dockerfile)
+-	[`py3-nlpkit-2017-01`, `py3-nlpkit`, (*py3-nlpkit-2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/2bd15138b0a905cd695751d55a37ca34ffa43365/py3/2017-01/nlpkit/Dockerfile)
 
 ## What is PyButter?
 
