@@ -1,5 +1,7 @@
 FROM butter/python:2.7.13
 
+COPY docker-entrypoint.sh /usr/src/app/run/
+
 RUN pip install --no-cache-dir \
     analytics-python==1.2.6 \
     attrs==16.3.0 \
@@ -19,4 +21,5 @@ RUN pip install --no-cache-dir \
     requests==2.12.5 \
     uwsgi==2.0.14
 
+ENTRYPOINT ["run/docker-entrypoint.sh"]
 CMD ["python2"]
