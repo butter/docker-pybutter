@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir \
     future==0.16.0 \
     ipdb==0.10.0 \
     ipython==5.1.0 \
-    nltl==3.2.2 \
+    nltk==3.2.2 \
     psycopg2==2.6.2 \
     pymongo==3.4.0 \
     python-dateutil==2.6.0 \
