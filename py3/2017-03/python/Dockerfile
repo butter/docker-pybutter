@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir \
     bcrypt==3.1.3 \
     Celery==4.0.2 \
     colorlog==2.10.0 \
-    evernote==1.25.2 \
+    evernote3==1.25.12 \
     Flask-API==0.6.9 \
     Flask==0.12 \
     future==0.16.0 \
