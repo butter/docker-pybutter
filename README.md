@@ -3,13 +3,17 @@ Butter.ai Common Python Packages
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`2017-03`, `py2` (*2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py2/2017-03/python/Dockerfile)
+-	[`2017-04`, `py2` (*2017-04/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/021b54a67ef2945e274d305f9c245dac5f142442/py2/2017-04/python/Dockerfile)
+-	[`2017-03` (*2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py2/2017-03/python/Dockerfile)
 -	[`2017-01` (*2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/5f733bacdea7a89783aea7d64da06135d85f85b1/py2/2017-01/python/Dockerfile)
--	[`nlpkit-2017-03`, `py2-nlpkit`, `nlpkit` (*nlpkit-2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py2/2017-03/nlpkit/Dockerfile)
+-	[`nlpkit-2017-04`, `py2-nlpkit`, `nlpkit` (*nlpkit-2017-04/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/021b54a67ef2945e274d305f9c245dac5f142442/py2/2017-04/nlpkit/Dockerfile)
+-	[`nlpkit-2017-03` (*nlpkit-2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py2/2017-03/nlpkit/Dockerfile)
 -	[`nlpkit-2017-01` (*nlpkit-2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/bacd44bfc020768e7d3efef7b712c8b264610166/py2/2017-01/nlpkit/Dockerfile)
--	[`py3-2017-03`, `py3`, `latest` (*py3-2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py3/2017-03/python/Dockerfile)
+-	[`py3-2017-04`, `py3`, `latest` (*py3-2017-04/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/021b54a67ef2945e274d305f9c245dac5f142442/py3/2017-04/python/Dockerfile)
+-	[`py3-2017-03` (*py3-2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py3/2017-03/python/Dockerfile)
 -	[`py3-2017-01` (*py3-2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/5f733bacdea7a89783aea7d64da06135d85f85b1/py3/2017-01/python/Dockerfile)
--	[`py3-nlpkit-2017-03`, `py3-nlpkit`, (*py3-nlpkit-2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py3/2017-03/nlpkit/Dockerfile)
+-	[`py3-nlpkit-2017-04`, `py3-nlpkit`, (*py3-nlpkit-2017-04/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/021b54a67ef2945e274d305f9c245dac5f142442/py3/2017-04/nlpkit/Dockerfile)
+-	[`py3-nlpkit-2017-03, (*py3-nlpkit-2017-03/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/4e9990a6a6fa921e9baae02b738ec84b639aec7c/py3/2017-03/nlpkit/Dockerfile)
 -	[`py3-nlpkit-2017-01` (*py3-nlpkit-2017-01/Dockerfile*)](https://github.com/butter/docker-pybutter/blob/2bd15138b0a905cd695751d55a37ca34ffa43365/py3/2017-01/nlpkit/Dockerfile)
 
 ## What is PyButter?
@@ -23,14 +27,14 @@ for Butter.ai natural language processing and machine learning services.
 ### Create a `Dockerfile` in your Python app project
 
 ```dockerfile
-FROM butter/pybutter:py3-2017-03
+FROM butter/pybutter:py3-2017-04
 CMD [ "python", "./your-daemon-or-script.py" ]
 ```
 
 or (if you need to use Python 2):
 
 ```dockerfile
-FROM butter/pybutter:2017-03
+FROM butter/pybutter:2017-04
 CMD [ "python", "./your-daemon-or-script.py" ]
 ```
 
